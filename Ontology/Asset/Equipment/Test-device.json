@@ -1,0 +1,32 @@
+{
+    "@id": "dtmi:digitaltwins:rec_3_3:asset:Test-device;1",
+    "@type": "Interface",
+    "displayName": {
+      "en": "Test device"
+    },
+    "description": {
+        "en": "Test device for Digital Twins PoC"
+    },
+    "contents": [
+      {
+        "@type": "Property",
+        "displayName": {
+          "en": "Temperature"
+        },
+        "name": "temperature",
+        "schema": "double",
+        "writable": true
+      },
+      {
+        "@type": "Property",
+        "displayName": {
+          "en": "Illumination "
+        },
+        "name": "illumination",
+        "schema": "double",
+        "writable": true
+      }
+    ],
+    "extends": "dtmi:digitaltwins:rec_3_3:asset:Equipment;1",
+    "@context": "dtmi:dtdl:context;2"
+  }
