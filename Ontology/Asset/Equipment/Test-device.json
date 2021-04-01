@@ -1,5 +1,5 @@
 {
-    "@id": "dtmi:digitaltwins:rec_3_3:asset:Test-device;1",
+    "@id": "dtmi:digitaltwins:rec_3_3:asset:TestDevice;1",
     "@type": "Interface",
     "displayName": {
       "en": "Test device"
