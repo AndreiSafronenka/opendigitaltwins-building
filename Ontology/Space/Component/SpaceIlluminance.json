@@ -1,0 +1,20 @@
+{
+  "@id": "dtmi:digitaltwins:rec_3_3:core:SpaceIlluminance;1",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Space Illuminance"
+  },
+  "contents": [
+    {
+      "@type": "Property",
+      "name": "lastValue",
+      "displayName": {
+        "en": "Illuminance Last Value"
+      },
+      "writable": true,
+      "schema": "double"
+    }
+  ],
+  "@context": "dtmi:dtdl:context;2"
+}
+  

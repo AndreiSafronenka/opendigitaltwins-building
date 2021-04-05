@@ -1,32 +1,30 @@
 {
-    "@id": "dtmi:digitaltwins:rec_3_3:asset:TestDevice;1",
-    "@type": "Interface",
-    "displayName": {
-      "en": "Test device"
-    },
-    "description": {
-        "en": "Test device for Digital Twins PoC"
-    },
-    "contents": [
-      {
-        "@type": "Property",
-        "displayName": {
-          "en": "Temperature"
-        },
-        "name": "temperature",
-        "schema": "double",
-        "writable": true
+  "@id": "dtmi:digitaltwins:rec_3_3:asset:TestDevice;2",
+  "@type": "Interface",
+  "displayName": {
+    "en": "Test device"
+  },
+  "description": {
+      "en": "Test device for Digital Twins PoC"
+  },
+  "contents": [
+    {
+      "@type": "Component",
+      "name": "temperature",
+      "displayName": {
+        "en": "Air Temperature"
       },
-      {
-        "@type": "Property",
-        "displayName": {
-          "en": "Illumination "
-        },
-        "name": "illumination",
-        "schema": "double",
-        "writable": true
-      }
-    ],
-    "extends": "dtmi:digitaltwins:rec_3_3:asset:Equipment;1",
-    "@context": "dtmi:dtdl:context;2"
-  }
+      "schema": "dtmi:digitaltwins:rec_3_3:device:AirTemperatureSensor;1"
+    },
+    {
+      "@type": "Component",
+      "name": "illuminance",
+      "displayName": {
+        "en": "Illuminance"
+      },
+      "schema": "dtmi:digitaltwins:rec_3_3:device:IlluminanceSensor;1"
+    }
+  ],
+  "extends": "dtmi:digitaltwins:rec_3_3:asset:Equipment;1",
+  "@context": "dtmi:dtdl:context;2"
+}

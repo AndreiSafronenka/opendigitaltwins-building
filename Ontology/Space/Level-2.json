@@ -21,6 +21,6 @@
   "displayName": {
     "en": "Level"
   },
-  "extends": "dtmi:digitaltwins:rec_3_3:core:Space;1",
+  "extends": "dtmi:digitaltwins:rec_3_3:core:Space;2",
   "@context": "dtmi:dtdl:context;2"
 }

@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:core:Space;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:core:Space;2",
   "@type": "Interface",
   "contents": [
     {
@@ -177,7 +177,7 @@
       "displayName": {
         "en": "Temperature"
       },
-      "schema": "dtmi:digitaltwins:rec_3_3:SpaceTemperature;1"
+      "schema": "dtmi:digitaltwins:rec_3_3:SpaceTemperature;2"
     },
     {
       "@type": "Component",
@@ -194,6 +194,14 @@
         "en": "CO2"
       },
       "schema": "dtmi:digitaltwins:rec_3_3:SpaceCO2;1"
+    },
+    {
+      "@type": "Component",
+      "name": "illuminance",
+      "displayName": {
+        "en": "Illuminance"
+      },
+      "schema": "dtmi:digitaltwins:rec_3_3:core:SpaceIlluminance;1"
     }
   ],
   "description": {

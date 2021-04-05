@@ -1,5 +1,5 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:SpaceTemperature;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:SpaceTemperature;2",
   "@type": "Interface",
   "displayName": {
     "en": "Space Temperature"
@@ -7,7 +7,7 @@
   "contents": [
     {
       "@type": "Property",
-      "name": "temperatureSensor",
+      "name": "lastValue",
       "displayName": {
         "en": "Temperature Sensor"
       },
