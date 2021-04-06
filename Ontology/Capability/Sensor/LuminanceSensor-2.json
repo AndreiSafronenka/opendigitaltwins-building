@@ -1,22 +1,18 @@
 {
-  "@id": "dtmi:digitaltwins:rec_3_3:device:IlluminanceSensor;1",
+  "@id": "dtmi:digitaltwins:rec_3_3:device:IlluminanceSensor;2",
   "@type": "Interface",
   "contents": [
     {
-      "@type": [
-        "Illuminance",
-        "Property"
-      ],
+      "@type": ["Telemetry", "Illuminance"],
       "description": {
-        "en": "Most recently reported or set value of a core:Capability."
+        "en": "Illuminance in luxes"
       },
       "displayName": {
-        "en": "last value"
+        "en": "Illuminance last value"
       },
       "name": "lastValue",
       "schema": "double",
-      "unit": "lux",
-      "writable": true
+      "unit": "lux"
     }
   ],
   "displayName": {

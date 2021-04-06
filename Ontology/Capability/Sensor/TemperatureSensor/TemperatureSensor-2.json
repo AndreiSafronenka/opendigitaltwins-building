@@ -1,0 +1,23 @@
+{
+  "@id": "dtmi:digitaltwins:rec_3_3:device:TemperatureSensor;2",
+  "@type": "Interface",
+  "contents": [
+    {
+      "@type": ["Telemetry", "Temperature"],
+      "description": {
+        "en": "Temperature in degrees Celsius"
+      },
+      "displayName": {
+        "en": "Temperature last value"
+      },
+      "name": "lastValue",
+      "schema": "double",
+      "unit": "degreeCelsius"
+    } 
+  ],
+  "displayName": {
+    "en": "Temperature sensor"
+  },
+  "extends": "dtmi:digitaltwins:rec_3_3:core:Sensor;1",
+  "@context": "dtmi:dtdl:context;2"
+}
